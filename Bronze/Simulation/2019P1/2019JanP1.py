@@ -62,4 +62,5 @@ def thing(input_str):
 
     return max(counter)
 
-runTests()
+#runTests()
+print(thing())
