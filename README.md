@@ -17,9 +17,9 @@ Welcome to the USACO Contest Map! This README provides a structured overview of 
   - Platinum
 - **Problems per Level**: 3
 
-## Contest Links
+## Contest Result Links
 
-Below is a map of links to each contest's problems. Click on a link to view the problems for that specific contest and level.
+Below is a map of links to each contest results. Click on a link to view the result for that specific year and contest.
 
 ### 2024-2025 Season
 - [2024 December](https://usaco.org/index.php?page=dec24results)
@@ -109,7 +109,7 @@ Below is a map of links to each contest's problems. Click on a link to view the 
 - [2012 March](https://usaco.org/index.php?page=mar12results)
 - [2012 US Open](https://usaco.org/index.php?page=open12results)
 
-## Detailed Contest Links
+## My Solutions (Some of them don't work)
 
 ### 2024-2025 Season
 
