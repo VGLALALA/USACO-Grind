@@ -1,6 +1,6 @@
-# USACO Contest Map (2011-2024)
+# USACO Contest Map (2011-2025)
 
-Welcome to the USACO Contest Map! This README provides a structured overview of all USACO contests from the 2011-2012 season to the 2023-2024 season. Each season consists of four contests, and each contest has four levels: Bronze, Silver, Gold, and Platinum. Each level contains three unique problems.
+Welcome to the USACO Contest Map! This README provides a structured overview of all USACO contests from the 2011-2012 season to the 2024-2025 season. Each season consists of four contests, and each contest has four levels: Bronze, Silver, Gold, and Platinum. Each level contains three unique problems.
 
 ## Contest Structure
 
