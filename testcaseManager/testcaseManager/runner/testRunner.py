@@ -39,7 +39,7 @@ class TestRunner:
         self.console.print(table)
         return in_files, test_case_dir
 
-    def runTests(self, processTestCase):
+    def runTests(self, processTestCase, output_mode="int"):
         if not callable(processTestCase):
             raise ValueError("The processTestCase argument must be a callable function.")
         
@@ -64,7 +64,18 @@ class TestRunner:
             out_file = os.path.join(test_case_dir, in_file[:-3] + '.out')
             if os.path.exists(out_file):
                 with open(out_file, 'r') as f:
-                    expected = int(f.readline().strip())
+                    content = f.read().strip()
+                    if output_mode == "int":
+                        expected = int(content)
+                    elif output_mode == "int_list":
+                        expected = list(map(int, content.split()))
+                    elif output_mode == "str":
+                        expected = content
+                    elif output_mode == "str_list":
+                        expected = content.split()
+                    else:
+                        raise ValueError("Invalid output mode. Must be 'int', 'int_list', 'str', or 'str_list'")
+
                     if result == expected:
                         self.console.print(Panel("[green]✓ Passed![/green]", title="Result", style="bold green", width=40))
                     else:
